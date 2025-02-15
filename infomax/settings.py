@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-o1cl1g*q#h8r&7bzppxy^yl8hv2k+u@vf0pk%u^aaqj&uidv9%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.infomax.space', 'infomax.space']
+ALLOWED_HOSTS = ['www.infomax.space', 'infomax.space', 'localhost', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'infomax',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
