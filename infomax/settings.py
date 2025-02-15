@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o1cl1g*q#h8r&7bzppxy^yl8hv2k+u@vf0pk%u^aaqj&uidv9%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.infomax.space', 'infomax.space']
 
 
 # Application definition
